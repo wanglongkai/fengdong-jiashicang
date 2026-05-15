@@ -61,7 +61,6 @@ const tableData = [
 <style lang="less" scoped>
 .tablebox {
 	width: 282px;
-	margin-top: 12px;
 	background: rgba(1, 20, 42, 0.6);
 	position: relative;
 	padding-bottom: 4px;

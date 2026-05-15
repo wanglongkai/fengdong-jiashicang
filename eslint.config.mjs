@@ -18,6 +18,7 @@ export default [
     rules: {
       'vue/multi-word-component-names': 'off',
       'vue/first-attribute-linebreak': 'off',
+      '@typescript-eslint/no-explicit-any': 'off',
     },
   },
   eslintConfigPrettier,
