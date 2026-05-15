@@ -47,7 +47,7 @@ import Right from '@/views/page1/components/right/index.vue'
 	.leftbox {
 		position: absolute;
 		color: #FFF;
-		top: 120px;
+		top: 80px;
 		left: 30px;
 	}
 
