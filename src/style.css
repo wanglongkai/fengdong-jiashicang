@@ -1,3 +1,17 @@
+@font-face {
+  font-family: 'D-DIN-PRO';
+  src: url('./assets/fonts/D-DIN-PRO-700-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Alimama ShuHeiTi';
+  src: url('./assets/fonts/alimama.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -9,6 +23,6 @@ body,
 #app {
   height: 100%;
   font-family:
-    'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', '微软雅黑',
-    Arial, sans-serif;
+    'D-DIN-PRO', 'Alimama ShuHeiTi', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei',
+    '微软雅黑', Arial, sans-serif;
 }

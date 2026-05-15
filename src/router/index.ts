@@ -6,7 +6,7 @@ const router = createRouter({
     {
       path: '/',
       name: 'Dashboard',
-      component: () => import('@/views/Dashboard.vue'),
+      component: () => import('@/views/page1/index.vue'),
       meta: {
         title: '风动智能管理系统1',
       },
@@ -14,7 +14,7 @@ const router = createRouter({
     {
       path: '/dashboard2',
       name: 'Dashboard2',
-      component: () => import('@/views/Dashboard2.vue'),
+      component: () => import('@/views/page2/index.vue'),
       meta: {
         title: '风动智能管理系统2',
       },
