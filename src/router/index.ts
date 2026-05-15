@@ -27,9 +27,6 @@ const router = createRouter({
   ],
 })
 
-/**
- * 路由全局后置守卫，用于切换路由时更新页面标题
- */
 router.afterEach((to) => {
   if (to.meta.title) {
     document.title = to.meta.title as string

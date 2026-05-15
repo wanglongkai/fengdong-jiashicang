@@ -13,5 +13,11 @@ export default defineConfig({
   server: {
     port: 3000,
     open: true,
+    proxy: {
+      '/county-dashboard': {
+        target: 'https://storeapi.kcshuzi.com',
+        changeOrigin: true,
+      },
+    },
   },
 })
