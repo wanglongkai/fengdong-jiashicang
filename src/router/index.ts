@@ -12,7 +12,7 @@ const router = createRouter({
       },
     },
     {
-      path: '/dashboard2',
+      path: '/page2',
       name: 'Dashboard2',
       component: () => import('@/views/page2/index.vue'),
       meta: {
