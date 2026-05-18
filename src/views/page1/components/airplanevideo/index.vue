@@ -29,7 +29,7 @@ const showVideo = ref(false)
 	right: 910px;
 	top: 235px;
 	cursor: pointer;
-	z-index: 10;
+	z-index: 100;
 
 	/* 增加一个轻微的悬停动效 */
 	transition: transform 0.3s ease;
